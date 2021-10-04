@@ -1,0 +1,88 @@
+/* Style Sheet for COSC231 Honors Project Projects Page */
+
+/* Page Styles */
+
+body {
+    font-family: "Franklin Gothic", Arial, sans-serif;
+    color: black;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(210, 221, 247);
+}
+
+p {
+    text-align: left;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+h2 {
+    text-shadow: 2px 2px white;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    background-color:rgb(85, 127, 219);
+    color: white;
+    font-size: larger;
+}
+
+table {
+    text-align: left;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border: 10px solid rgb(210, 221, 247);
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    border: 20px solid rgb(210, 221, 247);
+    border-collapse: collapse;
+}
+
+/* table.desc{
+    text-align: left;
+    width: 75%;
+    height: 150px;
+    margin: auto;
+} */
+
+
+/* 	Navigation Bar Styles */
+ul.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: rgb(85, 127, 219);
+    position: fixed;
+    font-family: "Franklin Gothic", Arial, sans-serif;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a.nav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li.nav a:hover:not(.active) {
+    background-color: rgb(35, 63, 122);
+}
+
+.active {
+    background-color: hotpink;
+}

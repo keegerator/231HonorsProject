@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Keegan Dwyer
+		 COSC231 Honors Project
+		 Fall 2020 
+		
+		 Program creates drawing program using HTML5 Canvas
+		 and buttons for pen and canvas color selections,
+		 as well as stroke size.
+		 Allows the user to draw freeform with a brush.
+		
+		-->
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="drawingstyle.css" />
+	<title>Drawing App</title>
+</head>
+<body>
+	<ul class="nav">
+		<li class="nav">
+			<a class="nav" href="../../index.html">Home</a>
+			</li>
+		<li class="nav">
+			<a class="nav" href="../aboutme.html">About Keegan</a>
+		</li>
+	</ul>
+	<br>
+	<table class="center">
+		<tr>
+			<td>Pen Colors</td>
+			<td><button class="red" onclick="changeColor('lightpink')"></button></td>
+			<td><button class="blue" onclick="changeColor('lightblue')"></button></td>
+			<td><button class="green" onclick="changeColor('lightgreen')"></button></td>
+			<td><button class="black" onclick="changeColor('dimgray')"></button></td>
+			<td><button class="white" onclick="changeColor('white')"></button></td>
+			<td><button class="destroy" onclick="clearCanvas()">Destroy Artwork</button></td>
+			<td><button class="white" onclick="changeCanvas('white')"></button></td>
+			<td><button class="black" onclick="changeCanvas('dimgray')"></button></td>
+			<td><button class="green" onclick="changeCanvas('lightgreen')"></button></td>
+			<td><button class="blue" onclick="changeCanvas('lightblue')"></button></td>
+			<td><button class="red" onclick="changeCanvas('lightpink')"></button></td>
+			<td>Canvas Colors</td>
+		</tr>
+	</table>
+	<table class="center">
+		<tr>
+			<td><input type="image" alt="stroke1" src="../../images/sz1.png" onclick="changeSize(1)"></td>
+			<td><input type="image" alt="stroke5" src="../../images/sz5.png" onclick="changeSize(5)"></td>
+			<td><input type="image" alt="stroke10" src="../../images/sz10.png" onclick="changeSize(10)"></td>
+			<td><input type="image" alt="stroke25" src="../../images/sz25.png" onclick="changeSize(25)"></td>
+		</tr>
+	</table>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src="canvas.js"></script>
+	<br><br><br>
+</body>
+</html>
