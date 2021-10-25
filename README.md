@@ -3,3 +3,6 @@ Originally a project meant to demonstrate AWS hosting, moved to GitHub for longe
 
 Created as an assignment to receive Honors credit in a non-Honors course. Intended to be an alternative
 way to host HTML files as a website without requiring a host and domain for public access.
+
+[231 Honors Project - AWS Web Hosting](https://keegerator.github.io/index.html) <br>
+
